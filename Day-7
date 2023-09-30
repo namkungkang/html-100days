@@ -1,0 +1,138 @@
+display
+box shadow
+span의미 없는 인라인 요소
+div 의미 없는 블록 요소
+
+마진상쇄
+여백이 더 큰쪽이 더 우세함
+수직으로만 발생
+
+요약
+순서목록 비순서 목록
+조상,부모-자식
+css 특성(계단식 상속,상속, 우선순위)
+상속
+하위 항목을 정의 
+너비와 같은 속성 x, 글꼴 o
+계단식 상속
+여러 규칙을 적용할 수 있다는 개념
+
+html 레이아웃 
+<main> <footer>
+
+class 및 ID 선택자
+결합자
+다른 요소의 일부요소를 구체적으로 선택가능, 다른 요소에 중첩 가능
+
+블록 요소와 인라인 요쇼의 차이점
+블록 요소는 기본적으로 전체너비를 사용, 각 줄에 차례로 표시 한줄씩
+인라인 요소 나란히 콘텐츠를 표시,필요한 공간만 차지
+인라인 요소에 수직 여백, 또는 패딩을 적용할 때의 차이점
+
+인라인 요소에 적용할 수 없는 수직 여백
+앵커 태그와 비대체 인라인 요소에 적용 가능
+
+랜딩 페이지의 이미지와 같은 인라인 요소는 적용 x
+
+마진 겹침
+상단 및 하단 여백이 축소
+아래쪽 여백이 24 위쪽 여백이 24 이면 48이 아니라 24 이 개념이 마진겹침을 의미함
+
+# full week.css
+  header  {
+  margin-bottom: 64px;
+}
+
+h1 {
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+  margin: 0;
+}
+
+#description {
+  margin: 12px 0;
+}
+
+a {
+  padding:  12px 48px;
+  background-color: rgb(167, 1, 78);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid rgb(167,1,78);
+  font-size: 24px;
+  display: inline-block;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: rgb(188, 12, 90);
+}
+
+ol {
+  list-style: none;
+  width : 500px;
+  margin: 36px auto 0 auto;
+  padding: 0;
+}
+
+li {
+  padding: 16px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  margin: 32px;
+  background-color: rgb(223, 136, 124);
+  border-radius: 6px;
+}
+
+h2 {
+  color : rgb(78,13,5);
+  font-family: 'Oswald', sans-serif;
+}
+
+main p {
+  margin: px12;
+  color:  rgb(71,29,22);
+}
+
+.daily-goal {
+  margin: px12;
+  color:  rgb(71,29,22);
+}
+
+#daily-challenge.css
+  body {
+}
+main {
+  width: 800px;
+  margin: 200px auto 72px auto;
+  background-color: rgb(219, 108, 94);
+  padding: 24px;
+  border: 5px solid rgb(44, 44, 44);
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  margin-top: -134px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 5px solid rgb(44, 44, 44);
+}
+h1 {
+  font-size: 30px;
+  color: rgb(31, 25, 25);
+}
+span {
+   color: rgb(66, 2, 2);
+}
+a {
+   color:  rgb(73,29,50);
+   
+}
+
+#todays-challenge {
+  color: rgb(75, 59, 59);
+  font-weight: bold;
+  font-size: 53px;
+}
